@@ -1,0 +1,45 @@
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.alt-nav { }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.logo { text-align: center; }
+	.alt-nav { display: block; width: 100%; margin-bottom: 20px; padding: 3px 0; }
+
+	#navigation { display: none; margin-bottom: 10px; }
+}
+
+/* Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 480px) {
+	.alignleft { float:none; display:block; }
+	.alignright { float:none; display:block; }
+	.alt-nav { }
+	.post-comments .avatar { display:none; }
+	.post-comments .comment-copy { margin-left:0; }
+	.post-comments ul { margin-left:0 !important; }
+	#commentform input[type=text],
+	#commentform textarea {
+		width: 100%;
+	}
+	#comment-list ul,
+	#comment-list ul ul,
+	#comment-list ul ul ul,
+	#comment-list ul ul ul {
+		margin: 0;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) { }
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) { }

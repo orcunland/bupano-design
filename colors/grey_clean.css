@@ -1,0 +1,153 @@
+/* GLOBAL: #Clean Grey
+================================================== */
+
+a, a:visited {
+	color: #d7604b;
+}
+
+a:hover {
+	color: #994230;
+}
+
+#header a, #header a:visited, .sf-menu a, .sf-menu a:visited {
+	color: #AEAEAE;
+	text-shadow: none !important;
+}
+
+input[type=text]:focus, textarea:focus,
+.box-item:hover .box-wrap {
+	border-color: #aeaeae;
+}
+
+.btn, input[type=submit], .btn:visited {
+	border: 1px solid #bebebe;
+
+	background-color: #f3f3f3;
+	background-image: linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(237,237,237)),
+		color-stop(1, rgb(250,250,250))
+	);
+}
+
+.btn:hover {
+
+	background-color: #f3f3f3;
+	background-image: linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(237,237,237)),
+		color-stop(1, rgb(250,250,250))
+	);
+}
+
+#nav-hold, .load-more, .load-more:visited, #bottom-widget {
+
+	background-color: #f3f3f3;
+	background-image: linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(237,237,237)),
+		color-stop(1, rgb(250,250,250))
+	);
+}
+
+#nav-hold { border-top: 1px solid #aeaeae; }
+
+#nav-hold, #bottom-widget {
+	border-bottom: 5px solid #aeaeae;
+}
+
+#bottom-widget {
+	border-top: 1px solid #aeaeae;
+}
+
+.load-more {
+	border: 1px solid #aeaeae;
+}
+
+.sf-menu ul {
+	background: #c7c7c7;
+	border: 1px solid #aeaeae;
+}
+
+.load-more:hover {
+
+	background-color: #f3f3f3;
+	background-image: linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(237,237,237) 0%, rgb(250,250,250) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(237,237,237)),
+		color-stop(1, rgb(250,250,250))
+	);
+}
+
+
+#header {
+	background-color: #FAFAFA;
+}
+
+.quote-text,
+.link-container {
+	background-color: #E6E6E6;
+	color: #acacac;
+}
+
+.link-container a, .link-container a:visited {
+	color: #acacac;
+}
+
+.quote-text blockquote cite a, .quote-text blockquote cite a:visited, .quote-text blockquote cite {
+	color: #b8b8b8;
+}
+
+#footer {
+	background: #FAFAFA;
+	color: #5c5c5c;
+}
+
+#footer h3.widget-title {
+	color: #3b3b3b;
+}
+
+body {
+	background: #F6F6F3;
+}
+
+.jp-play-bar {
+	background: #F6F6F3;
+}
+
+.read-all-comments, .read-all-comments:visited,
+.load-more, .load-more:visited {
+	color: #4F4F4E !important;
+}

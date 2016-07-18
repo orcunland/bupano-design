@@ -1,0 +1,144 @@
+/* GLOBAL: #Green Orange
+================================================== */
+
+a, a:visited {
+	color: #d7604b;
+}
+
+a:hover {
+	color: #994230;
+}
+
+input[type=text]:focus, textarea:focus,
+.box-item:hover .box-wrap {
+	border-color: #d4594b;
+}
+
+#logo h1 a,
+#logo h1 a:visited {
+	color: #f7c842;
+}
+
+.btn, input[type=submit], .btn:visited {
+	color: #fff;
+	border: 1px solid #4E265F;
+
+	background-color: #411E50;
+	background-image: linear-gradient(bottom, #411E50 0%, #4E265F 100%);
+	background-image: -o-linear-gradient(bottom, #411E50 0%, #4E265F 100%);
+	background-image: -moz-linear-gradient(bottom, #411E50 0%, #4E265F 100%);
+	background-image: -webkit-linear-gradient(bottom, #411E50 0%, #4E265F 100%);
+	background-image: -ms-linear-gradient(bottom, #411E50 0%, #4E265F 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #411E50),
+		color-stop(1, #4E265F)
+	);
+}
+
+.btn:hover {
+	background-color: #6c2b80;
+	background-image: linear-gradient(bottom, #6c2b80 0%, #4E265F 100%);
+	background-image: -o-linear-gradient(bottom, #6c2b80 0%, #4E265F 100%);
+	background-image: -moz-linear-gradient(bottom, #6c2b80 0%, #4E265F 100%);
+	background-image: -webkit-linear-gradient(bottom, #6c2b80 0%, #4E265F 100%);
+	background-image: -ms-linear-gradient(bottom, #6c2b80 0%, #4E265F 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #6c2b80),
+		color-stop(1, #4E265F)
+	);
+}
+
+#nav-hold, .load-more, .load-more:visited, #bottom-widget {
+	background-color: #D9654B;
+	background-image: linear-gradient(bottom, #D2544B 0%, #D9654B 100%);
+	background-image: -o-linear-gradient(bottom, #D2544B 0%, #D9654B 100%);
+	background-image: -moz-linear-gradient(bottom, #D2544B 0%, #D9654B 100%);
+	background-image: -webkit-linear-gradient(bottom, #D2544B 0%, #D9654B 100%);
+	background-image: -ms-linear-gradient(bottom, #D2544B 0%, #D9654B 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #D2544B),
+		color-stop(1, #D9654B)
+	);
+
+}
+
+#nav-hold, #bottom-widget {
+	border-bottom: 5px solid #bc4a43;
+}
+
+#bottom-widget {
+	border-top: 1px solid #bc4a43;
+}
+
+.load-more {
+	border: 1px solid #bc4a43;
+}
+
+.sf-menu ul {
+	background: #D55C4B;
+	border: 1px solid #BC4A43;
+}
+
+.load-more:hover {
+	background-color: #D9654B;
+	background-image: linear-gradient(bottom, #D9654B 0%, #D2544B 100%);
+	background-image: -o-linear-gradient(bottom, #D9654B 0%, #D2544B 100%);
+	background-image: -moz-linear-gradient(bottom, #D9654B 0%, #D2544B 100%);
+	background-image: -webkit-linear-gradient(bottom, #D9654B 0%, #D2544B 100%);
+	background-image: -ms-linear-gradient(bottom, #D9654B 0%, #D2544B 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #D9654B),
+		color-stop(1, #D2544B)
+	);
+}
+
+
+#header,
+.quote-text,
+.link-container {
+	background-color: #156075;
+}
+
+#footer {
+	background: #156075;
+	color: #99dde0;
+}
+
+#footer h3.widget-title {
+	color: #f4e6cc;
+}
+
+#footer a, #footer a:visited,
+#bottom-widget a, #bottom-widget a:visited {
+	color: #f4e6cc;
+}
+
+#footer a:hover,
+#bottom-widget a:hover {
+	color: #e4d6be;
+}
+
+body {
+	background: #F4E6CC;
+}
+
+.jp-play-bar {
+	background: #74BEC1;
+}
+

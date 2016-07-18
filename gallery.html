@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="js/galleria-1.4.2.min.js"></script>
+        <style type="text/css">
+            body {
+                margin: 0px;
+            }
+        </style>
+        
+        <style>
+            .galleria {
+                width: 700px;
+                height: 400px;
+                background: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="galleria">
+            <img src="images/1.jpg">
+            <img src="images/2.jpg">
+            <img src="images/1.jpg">
+            <img src="images/2.jpg">
+        </div>
+        <script>
+            Galleria.loadTheme('js/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+        </script>
+    </body>
+</html>
